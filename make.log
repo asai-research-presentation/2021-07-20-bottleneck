@@ -1,0 +1,24 @@
+make[1]: 警告: 副次 make で -j8 を強制指定しました: jobserver モードをリセットします.
+make[1]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck' に入ります
+make -C img
+make -C css
+make -C scripts
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/img' に入ります
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/css' に入ります
+sass --update .
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/scripts' に入ります
+Q --batch  -f batch-byte-compile compile-org-html.el
+make[2]: Q: そのようなファイルやディレクトリはありません
+make[2]: [Makefile:5: compile-org-html.elc] エラー 127 (無視されました)
+Q --batch  -f batch-byte-compile compile-org-latex.el
+make[2]: Q: そのようなファイルやディレクトリはありません
+make[2]: [Makefile:5: compile-org-latex.elc] エラー 127 (無視されました)
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/scripts' から出ます
+scripts/org-html.sh presen.org presen.org.html
+make[2]: 'all' に対して行うべき事はありません.
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/img' から出ます
+Loading /home/masataro/repos/presentations/2021-07-20-bottleneck/scripts/compile-org-html.el (source)...
+Org-mode version 8.3.6 (8.3.6-dist @ /home/masataro/repos/presentations/2021-07-20-bottleneck/org-mode/lisp/)
+make[2]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck/css' から出ます
+cp -f presen.org.html index.html
+make[1]: ディレクトリ '/home/masataro/repos/presentations/2021-07-20-bottleneck' から出ます
